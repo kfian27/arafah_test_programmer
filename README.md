@@ -64,3 +64,21 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## Guide untuk menggunakan
+download file .env disini https://1024terabox.com/s/1Wd1JDlVBYFzRNdYgNEmkWg
+Lakukan composer install
+buatkan db test_arafah di mysql
+lalu php artisan migrate
+lalu php artisan db:seed
+lalu php artisan serve
+lalu buka browser dan ketikkan localhost:8000
+lalu login dengan email dan password yang sudah di seed di database
+login apoteker
+Email: pharmacist@gmail.com
+Password: 12345678
+Role: pharmacist
+login dokter
+Email: doctor@gmail.com
+Password: 12345678
+Role: doctor
